@@ -3,8 +3,8 @@ let userName: string;
 
 userInput = 5;
 userInput = 'Waqqar';
-/* with unknow, am extra type check is needed to be able to assing an unknown value to a value with a fixed type.
-uknown is the better choice over any type because it makes that we are not allowed to do anything but we have at least 
+/* with unknown, am extra type check is needed to be able to assing an unknown value to a value with a fixed type.
+unknown is the better choice over any type because it makes that we are not allowed to do anything but we have at least 
 some type checking */
 if (typeof userInput === 'string') {
 	userName = userInput;
